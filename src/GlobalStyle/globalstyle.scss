@@ -1,0 +1,27 @@
+
+$primary-font: 'Montserrat', sans-serif;
+$secondary-font: 'Playfaire';
+
+
+$primary-color: black;
+$secondary-color: #f3d9ae;
+$tertiary-color: #918f8c;
+$quaternaire-color:#d8d4cf;
+
+$primary-size:24px;
+$secondary-size:18px;
+$tertiary-size:14px;
+$quaternaire-size:12px;
+
+.container{
+    margin: auto;
+    max-width: 1240px;
+    width: 100%;
+    padding: 20px;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
