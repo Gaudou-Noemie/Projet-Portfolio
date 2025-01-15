@@ -11,9 +11,7 @@ function Carte() {
 
   useEffect(() => {
     const options = {
-      strings: [
-        "L’évolution d’une créative vers le développement web : voici mon histoire",
-      ],
+      strings: ["De la Beauté des Fleurs à l'Élégance du Code"],
       typeSpeed: 50,
       backSpeed: 30,
       backDelay: 1000,
@@ -22,13 +20,16 @@ function Carte() {
       onComplete: (self) => {
         setTimeout(() => {
           self.reset(true);
-        }, 2000);
+        }, 4000);
       },
     };
 
     typedInstance.current = new Typed(typedRef.current, options);
-
-    return () => typedInstance.destroy();
+    return () => {
+      if (typedInstance.current) {
+        typedInstance.current.destroy();
+      }
+    };
   }, []);
 
   return (
