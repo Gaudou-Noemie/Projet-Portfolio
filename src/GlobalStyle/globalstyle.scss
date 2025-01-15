@@ -1,17 +1,20 @@
 
-$primary-font: 'Montserrat', sans-serif;
-$secondary-font: 'Playfaire';
+$first-font: 'Montserrat', sans-serif;
+$second-font: 'Playfaire';
 
 
-$primary-color: black;
-$secondary-color: #f3d9ae;
-$tertiary-color: #918f8c;
-$quaternaire-color:#d8d4cf;
+$first-color: black;
+$second-color: #f3d9ae;
+$third-color: #918f8c;
+$fourth-color:#eaeaea ;
+$fifth-color:#737372;
+$sixth-color:#3d3b3a;
+$seventh-color:#646260 ;
 
-$primary-size:24px;
-$secondary-size:18px;
-$tertiary-size:14px;
-$quaternaire-size:12px;
+$first-size:24px;
+$second-size:18px;
+$third-size:14px;
+$fourth-size:12px;
 
 .container{
     margin: auto;
@@ -25,3 +28,14 @@ $quaternaire-size:12px;
 	margin: 0;
 	padding: 0;
 }
+
+.noscript-message {
+    color: red;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8d7da; /* Rouge clair pour indiquer une alerte */
+    border: 1px solid #f5c6cb; /* Bordure correspondant */
+    border-radius: 5px;
+    font-family: 'Open Sans', Arial, sans-serif;
+  }
+

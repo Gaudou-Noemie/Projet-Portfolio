@@ -2,17 +2,17 @@
 
 
 .footerContainer {
-    font-family: $primary-font;
+    font-family: $first-font;
     padding: 20px;
-    background-color: $quaternaire-color;
+    background-color: $fourth-color;
     text-align: center;
-    color: $tertiary-color;
+    color: $seventh-color;
     margin-top: 30px;
 &__p{
-    font-size: $secondary-size;
+    font-size: $second-size;
 }
     &__reserver{
         padding-top: 8px;
-        font-size: $quaternaire-size;
+        font-size: $fourth-size;
     }
   }

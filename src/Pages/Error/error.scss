@@ -3,25 +3,25 @@
 .error{
     display: flex;
     flex-direction: column;
-    font-family: $primary-font;
+    font-family: $first-font;
   
 &__p{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: $tertiary-color;
+    color: $third-color;
  
 }
 &__4{
     font-size: 300px;
-    color:$secondary-color;
+    color:$second-color;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 &__lien{
     text-decoration: none;
-    color:$tertiary-color;
+    color:$third-color;
     padding-top: 5px;
 }
 }

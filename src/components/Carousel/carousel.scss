@@ -29,8 +29,8 @@
   
 
   .carousel-logo {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     object-fit: contain;
     transition: transform 0.3s ease-in-out;
   
@@ -41,10 +41,10 @@
   }
  // Personnaliser les points de pagination
 .swiper-pagination-bullet {
-    background-color: $tertiary-color !important; /* Couleur des points de pagination */
+    background-color: $third-color !important; /* Couleur des points de pagination */
     transition: background-color 0.3s ease;
   }
   
   .swiper-pagination-bullet-active {
-    background-color: #656463 !important; /* Couleur du point actif */
+    background-color: $sixth-color !important; /* Couleur du point actif */
   }

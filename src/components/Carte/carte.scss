@@ -1,30 +1,74 @@
 @import "../../GlobalStyle/globalstyle.scss";
 
 .carteContainer {
-    background-color: $quaternaire-color;
-    font-family: $primary-font;
-    height: 500px;
-  
-    &__div {
-      width: 400px;
-      height: 400px;
-      padding: 0; 
-      position: relative;
-      border: 3px solid #ccc;
-      border-radius: 50%;
-      overflow: hidden; 
-      transition: border-color 0.3s ease, transform 0.3s ease;
-    }
-  
-    &__div:hover {
-      border-color: $tertiary-color;
-      transform: scale(1.1);
-    }
-  
-    &__img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-    }
+  background-color: $fourth-color;
+  font-family: $first-font;
+  padding: 27px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    color: $sixth-color;
+    text-align: center;
+    margin-bottom: 20px;
   }
+
+  &__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  &__div {
+    width: 300px;
+    height: 300%;
+    padding: 0;
+    position: relative;
+    border: 3px solid #ccc;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+  }
+
+  &__div:hover {
+    border-color: $third-color;
+    transform: scale(1.1);
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  &__p {
+    color: $seventh-color;
+    font-size: 16px;
+    width: 600px;
+    margin-left: 20px;
+    text-align: center;
+    position: relative;
+  }
+}
+
+.quoteIconLeft {
+  color: $third-color;
+  font-size: $third-size;
+  position: absolute; 
+  top: -25px;  // Décalage vers le haut
+  left: -30px;  // Décalage à gauche
+}
+
+.quoteIconRight {
+  color: $third-color;
+  font-size: $third-size;
+  position: absolute; 
+  bottom: -25px;  // Décalage vers le bas
+  right: -30px;  // Décalage à droite
+}
