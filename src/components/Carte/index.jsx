@@ -7,7 +7,7 @@ import "./carte.scss";
 
 function Carte() {
   const typedRef = useRef(null);
-  let typedInstance = null;
+  let typedInstance = useRef(null);
 
   useEffect(() => {
     const options = {
@@ -26,7 +26,7 @@ function Carte() {
       },
     };
 
-    typedInstance = new Typed(typedRef.current, options);
+    typedInstance.current = new Typed(typedRef.current, options);
 
     return () => typedInstance.destroy();
   }, []);
