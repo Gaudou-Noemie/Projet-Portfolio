@@ -1,7 +1,10 @@
 import React from "react";
-import Portfolio from "../../components/Portfolio";
 
 function Home() {
-  return <Portfolio />;
+  return (
+    <div>
+      <h1> Bienvenue </h1>
+    </div>
+  );
 }
 export default Home;

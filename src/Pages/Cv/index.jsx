@@ -1,9 +1,10 @@
 import React from "react";
+import MyCv from "../../components/myCv";
 
 function Cv() {
   return (
     <div>
-      <h2>Voici mon Cv</h2>
+      <MyCv />
     </div>
   );
 }

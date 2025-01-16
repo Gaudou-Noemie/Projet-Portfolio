@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/Logo.jpg";
+import logo from "../../assets/Logo.webp";
 import "./header.scss";
 
 function Header() {
@@ -8,6 +8,10 @@ function Header() {
       <img className="headerContainer__img" src={logo} alt="Logo du site" />
       <div className="headerContainer__Div">
         <NavLink to="/" className="headerContainer__lien">
+          HOME
+        </NavLink>
+
+        <NavLink to="/portfolio" className="headerContainer__lien">
           PORTFOLIO
         </NavLink>
 
