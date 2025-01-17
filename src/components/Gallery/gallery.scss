@@ -1,0 +1,61 @@
+@import"../../GlobalStyle/globalstyle.scss";
+.gallery {
+    position: relative;
+    width: 100%;
+    height: 500px; 
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: $first-font;
+    border-radius: 11px;
+    box-shadow:1px 3px 8px 8px rgba(0,0,0,0.5);
+  
+    &__img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0;
+      transition: opacity 4s ease-in-out;
+      filter: brightness(0.5);
+     
+    }
+  
+    &__img.active {
+      opacity: 1;
+      z-index: 1;
+    }
+  
+    &__img.inactive {
+      opacity: 0;
+      z-index: 0;
+    }
+
+    &__texte{
+        position: absolute;
+        width: 1032px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2; 
+        text-align: center;
+        color: $sixth-color;
+        background: rgba(255, 255, 255, 0.6);
+        border-radius: 11px;
+        padding: 14px;
+       
+    }
+    &__title{
+     font-size: $sixth-size;
+     font-weight:200;
+    }
+    &__content{
+        font-size: $second-size;
+    }
+    &__info{
+        padding-top: 10px;
+        font-family: $second-font;
+        font-size: $fourth-size;
+    }
+  }

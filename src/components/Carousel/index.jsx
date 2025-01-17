@@ -26,7 +26,7 @@ function Carousel() {
       >
         {logos.map((logo, index) => (
           <SwiperSlide key={index} className="swiper-slide">
-            <img src={logo.src} alt={logo.alt} className="carousel-logo" />{" "}
+            <img src={logo.src} alt={logo.alt} className="carousel-logo" />
           </SwiperSlide>
         ))}
       </Swiper>

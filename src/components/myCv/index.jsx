@@ -1,4 +1,4 @@
-import "./MyCv.scss";
+import "./myCv.scss";
 import Img from "../../assets/CV-2025.webp";
 
 function MyCv() {

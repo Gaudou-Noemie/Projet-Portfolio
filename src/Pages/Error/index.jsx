@@ -9,7 +9,7 @@ function Error() {
         <p className="error__4">404</p>
         <p> Oups! La page ne charge pas.</p>
         <NavLink className="error__lien" to="/">
-          Retour au Portfolio.
+          Retour HOME.
         </NavLink>
       </div>
     </div>

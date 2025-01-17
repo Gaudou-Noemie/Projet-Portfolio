@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import Home from './Pages/Home';
-import Error from './GlobalStyle/Error';
+import Error from './Pages/Error';
 import About from './Pages/About';
 import Cv from './Pages/Cv';
 import Header from './components/Header';

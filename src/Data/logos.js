@@ -1,16 +1,16 @@
-import React from "../assets/logo-react.webp";
-import Node from "../assets/logo-node.webp";
-import Htlm from "../assets/logo-html.webp";
-import Css from "../assets/logo-css.webp";
+import React from "../assets/logo-react.png";
+import Node from "../assets/logo-node.png";
+import Htlm from "../assets/logo-html.png";
+import Css from "../assets/logo-css.png";
 import Github from "../assets/logo-github.webp";
-import Sass from "../assets/logo-sass.webp";
-import Postman from "../assets/logo-postman.webp";
-import Vscode from "../assets/logo-vscode.webp";
-import Mongodb from "../assets/logo-mongodb.webp";
-import Javascript from "../assets/logo-javascript.webp";
+import Sass from "../assets/logo-sass.png";
+import Postman from "../assets/logo-postman.png";
+import Vscode from "../assets/logo-vscode.png";
+import Mongodb from "../assets/logo-mongodb.png";
+import Javascript from "../assets/logo-javascript.png";
 import Notion from "../assets/logo-notion.webp";
-import Figma from "../assets/logo-figma.webp";
-import Devtools from "../assets/logo-devtools.webp";
+import Figma from "../assets/logo-figma.png";
+import Devtools from "../assets/logo-devtools.jpg";
 
 export const logos = [
   { src: React, alt: "Logo de React" },
