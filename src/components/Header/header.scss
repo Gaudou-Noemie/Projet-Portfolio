@@ -9,20 +9,57 @@
     padding: 20px;
     justify-content: space-between;
 
-    &__Div{
+    &__Div {
         display: flex;
         width: 339px;
         justify-content: space-between;
         padding-top: 30px;
-       
 
+    @media screen and (max-width: 500px){
+            position: absolute;
+            top: 80px;
+            right: 0;
+            background-color: $fourth-color;
+            flex-direction: column;
+            width: 40%;
+            padding-top: 0%;
+            max-height: 0;
+            overflow: hidden;
+            border-radius: 10px;
+            transition:max-height 0.8s ease, box-shadow 0.8s ease;
+            box-shadow:0px 0px 11px 2px rgba(0,0,0,0);
+            text-align: center;
+        } 
+        
+        &--open {
+          max-height: 300px;
+          z-index: 3;
+          box-shadow:0px 0px 11px 2px rgba(0,0,0,0.5);
+        }
     }
+   
     &__lien{
         position: relative;
         text-decoration: none;
         color: $fifth-color;
         text-transform: uppercase;
         height: 28px;
+
+        @media screen and (max-width: 500px) {
+          margin: 10px 0;
+          font-size: $fourth-size;
+          transition: background-color 0.5s ease-in-out, transform 0.2s ease;
+
+          &:active {
+            background-color: darken($fourth-color, 20%);
+            padding: 5px;
+            color: lighten($fifth-color, 60%);
+            border-radius: 8px;
+            transform: scale(1.05); 
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+          }
+        }
+       
 
         &::after {
             content: '';
@@ -35,6 +72,10 @@
             height: 2px; 
             background-color: $third-color;
             transition: transform 250ms ease-in-out;
+
+            @media screen and (max-width: 500px) {
+                content: none;
+            }
           }
       
           &:hover {
@@ -42,9 +83,35 @@
               transform: translateX(-50%) scaleX(1);
             }
           }
+ }
+   
+    &__toggle {
+      display: none;
+
+      @media screen and (max-width: 500px) {
+      display: block;
+      font-size: $first-size;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: $fifth-color;
+      }
     }
     &__img{
         width: 170px;
-      
-    }
-}
+        display: block;
+
+        @media screen and (max-width: 500px) {
+           display: none;
+        }
+      }
+
+    &__imgM{
+      display: none;
+  
+      @media screen and (max-width: 500px) {
+          display: block ;
+          max-width: 80px;
+        }
+      }
+ }

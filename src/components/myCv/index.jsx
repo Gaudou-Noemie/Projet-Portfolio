@@ -6,6 +6,9 @@ function MyCv() {
     <div className="MyCvContainer">
       <h2 className="MyCvContainer__title">Curriculum vitae</h2>
       <div className="MyCvContainer__content">
+        <a href="./CV-2025.pdf" download={true}>
+          Télécharger
+        </a>
         <img
           className="MyCvContainer__img"
           src={Img}
