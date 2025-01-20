@@ -101,7 +101,11 @@
         width: 170px;
         display: block;
 
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 768px) {
+          max-width: 130px;
+        }
+
+        @media screen and (max-width:500px) {
            display: none;
         }
       }
