@@ -6,6 +6,10 @@
     max-width: 600px; 
     height: 120px;
     margin: 0 auto;
+
+    @media screen and (max-width: 500px) {
+      height: 100px;
+    }
   }
   
   // Configurer le carrousel Swiper pour être horizontal
@@ -33,6 +37,11 @@
     height: 50px;
     object-fit: contain;
     transition: transform 0.3s ease-in-out;
+
+    @media screen and (max-width: 500px) {
+      width: 30px;
+      height: 30px;
+    }
   
     &.swiper-slide-active {
       transform: scale(1.4); 
