@@ -56,6 +56,10 @@
     animation: zoom-in 1s ease-out forwards;
     margin-bottom: 20px;
 
+    @media screen and (max-width: 1024px) {
+        font-size: 200px;
+    }
+
         @media screen and (max-width: 768px) {
             font-size: 130px;
         }

@@ -51,12 +51,11 @@
           transition: background-color 0.5s ease-in-out, transform 0.2s ease;
 
           &:active {
-            background-color: darken($fourth-color, 20%);
+            animation: click-effect 0.6s ease;
             padding: 5px;
-            color: lighten($fifth-color, 60%);
+            color: lighten($ninth-color, 60%);
+            background-color: $ninth-color;
             border-radius: 8px;
-            transform: scale(1.05); 
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
           }
         }
        
@@ -70,7 +69,7 @@
             transform-origin: center;
             width: 100%;
             height: 2px; 
-            background-color: $third-color;
+            background-color: $ninth-color;
             transition: transform 250ms ease-in-out;
 
             @media screen and (max-width: 500px) {
@@ -119,3 +118,18 @@
         }
       }
  }
+
+ @keyframes click-effect {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 4px 10px rgba($ninth-color, 0.3);
+  }
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba($ninth-color, 0.4);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 4px 10px rgba($ninth-color, 0.3);
+  }
+}

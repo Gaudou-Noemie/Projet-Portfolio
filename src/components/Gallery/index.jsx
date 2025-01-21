@@ -1,23 +1,35 @@
 import React, { useState, useEffect } from "react";
 import { pictures } from "../../Data/pictures";
+import { mobilePictures } from "../../Data/pictures";
 import "./gallery.scss";
 
 function Gallery() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth <= 768);
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) =>
-        prevIndex === pictures.length - 1 ? 0 : prevIndex + 1
+        prevIndex === (isMobile ? mobilePictures : pictures).length - 1
+          ? 0
+          : prevIndex + 1
       );
     }, 8000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [isMobile]);
 
+  const imageData = isMobile ? mobilePictures : pictures;
   return (
     <div className="gallery">
-      {pictures.map((picture, index) => (
+      {imageData.map((picture, index) => (
         <img
           key={index}
           src={picture.src}
