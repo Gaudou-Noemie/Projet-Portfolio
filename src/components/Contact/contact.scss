@@ -14,11 +14,16 @@
 
 
 &__title{
-    font-weight: 400;
+    font-weight: 500;
     color: $sixth-color;
     padding-bottom: 30px;
     text-align: center;
     font-size: $first-size;
+
+
+        @media screen and (max-width: 768px) {
+            font-size: $second-size;
+        }
 
         @media screen and (max-width: 500px) {
             font-size: $third-size;
@@ -34,6 +39,12 @@
     max-height: 294px;
     flex-wrap: wrap;
 
+        @media screen and (max-width: 768px) {
+            font-size: $third-size;
+            max-height: 230px;
+            margin-top: 20px;
+        }
+
         @media screen and (max-width: 500px) {
             width: auto;
             font-size: $fourth-size;
@@ -44,6 +55,10 @@
     color: $ninth-color;
     font-size: 63px;
     transition: color 0.3s ease;
+
+        @media screen and (max-width: 768px) {
+            font-size: 40px;
+        }
 
         @media screen and (max-width: 500px) {
             font-size: $first-size;
@@ -69,7 +84,8 @@
     padding: 4px;
     text-align: center;
     max-width: 132px;
-
+         
+        
         @media screen and (max-width: 500px) {
             &:active {
                 animation: click-effect 0.6s ease;

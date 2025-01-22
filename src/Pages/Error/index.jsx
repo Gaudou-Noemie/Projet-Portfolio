@@ -18,7 +18,7 @@ function Error() {
           Retournons à la page d'accueil.
         </NavLink>
       </div>
-      <p className="error__4">404</p>
+      <h2 className="error__4">404</h2>
     </div>
   );
 }

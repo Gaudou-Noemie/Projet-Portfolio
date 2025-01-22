@@ -5,12 +5,18 @@
     height: 800px;
     border-radius: 10px;
 
-    &__H{
+    &__title{
         font-weight: 400;
+        font-size: $fifth-size;
         text-align: center;
         color: $third-color;
         padding: 20px;
 
-
+        @media screen and (max-width: 768px) {
+            font-size: $first-size;
+          }
+          @media screen and (max-width: 500px) {
+            font-size: $second-size;
+          }
     }
 }

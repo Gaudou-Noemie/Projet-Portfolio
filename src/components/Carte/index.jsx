@@ -34,7 +34,7 @@ function Carte() {
 
   return (
     <div className="carteContainer">
-      <h1 className="carteContainer__H">A PROPOS</h1>
+      <h1 className="carteContainer__H">À PROPOS</h1>
       <div className="carteContainer__element">
         <h2 className="carteContainer__title">
           <span ref={typedRef}></span>

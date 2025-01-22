@@ -5,7 +5,7 @@ import Contact from "../Contact";
 function MyCv() {
   return (
     <div className="MyCvContainer">
-      <h1 className="MyCvContainer__title">Curriculum vitae</h1>
+      <h1 className="MyCvContainer__title">CURRICULUM VITAE</h1>
       <div className="MyCvContainer__element">
         <div className="MyCvContainer__content">
           <img
