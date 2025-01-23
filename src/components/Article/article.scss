@@ -1,1 +1,51 @@
 @import "../../GlobalStyle/globalstyle.scss";
+.div{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.articleContainer{
+    display: flex;
+    font-family: $first-font;
+    color: $fifth-color;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 370px;
+    margin: 30px;
+    border: 3px solid $fifth-color;
+    border-radius: 8px;
+    
+
+    &__title{
+        text-align: center;
+        font-weight: 500;
+        padding: 5px;
+    }
+    &__divImg{
+        width: 100%;
+        height: 200px;
+    }
+    &__img{
+        width: 100%;
+        height: 100%;
+
+    }
+    &__texte{
+        font-size: $fourth-size;
+        padding: 5px;
+    }
+    &__links a{
+        text-decoration: none;
+        color: $sixth-color;
+        padding: 6px;
+        margin: 3px;
+        font-size: $seventh-size;
+        border-radius: 12px;
+        background-color: $ninth-color;
+
+    }
+}
