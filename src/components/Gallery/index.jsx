@@ -31,6 +31,7 @@ function Gallery() {
     <div className="gallery">
       {imageData.map((picture, index) => (
         <img
+          loading="lazy"
           key={index}
           src={picture.src}
           alt={picture.alt}

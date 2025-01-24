@@ -45,6 +45,7 @@ function Carte() {
               className="carteContainer__img"
               src={Photo}
               alt="Portrait de la créatrice du site"
+              loading="lazy"
             />
           </div>
           <div className="carteContainer__p">

@@ -12,13 +12,20 @@
     @media screen and (max-width:500px) {
         margin-top: 24px;
     }
-&__p{
-    font-size: $second-size;
 
-    @media screen and (max-width: 500px){
-        font-size: $third-size;
+    &__title{
+        font-size: $first-size;
+        font-weight: 400;
+        padding: 15px;
+        color: $sixth-color;
+
+        @media screen and (max-width: 768px) {
+            font-size: $second-size;
+        }
+        @media screen and (max-width: 500px) {
+            font-size: $third-size;
+        }
     }
-}
     &__reserver{
         padding-top: 8px;
         font-size: $fourth-size;

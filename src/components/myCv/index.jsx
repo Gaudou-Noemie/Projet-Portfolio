@@ -12,6 +12,7 @@ function MyCv() {
             className="MyCvContainer__img"
             src={Img}
             alt="Curriculum vitae de la créatrice du site."
+            loading="lazy"
           />
         </div>
 

@@ -17,8 +17,18 @@ function Header() {
 
   return (
     <div className="headerContainer">
-      <img className="headerContainer__img" src={logo} alt="Logo du site." />
-      <img className="headerContainer__imgM" src={mobile} alt="Logo du site." />
+      <img
+        className="headerContainer__img"
+        src={logo}
+        alt="Logo du site."
+        loading="lazy"
+      />
+      <img
+        className="headerContainer__imgM"
+        src={mobile}
+        alt="Logo du site."
+        loading="lazy"
+      />
 
       <button
         className="headerContainer__toggle"

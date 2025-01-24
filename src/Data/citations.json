@@ -1,0 +1,27 @@
+[
+    {
+        "id" : "1",
+        "author" : "Grady Booch",
+        "texte" : "Le développement, c’est la mise en œuvre de l’idée."
+    },
+    {
+        "id" : "2",
+        "author" : "Steve McConnell",
+        "texte" : "Le vrai défi du développeur, c’est de comprendre un problème avant d’en trouver la solution."
+    },
+    {
+        "id" : "3",
+        "author" : "Martin Fowler",
+        "texte" : "Tout code mal écrit est un bug potentiel."
+    },
+    {
+        "id" : "4",
+        "author" : "Tim Berners-Lee",
+        "texte" : "La programmation n’est pas une science exacte, mais une forme d’art."
+    },
+    {
+        "id" : "5",
+        "author" : "Chris Richardsonl",
+        "texte" : "Un bon développeur est quelqu'un qui sait résoudre des problèmes, pas seulement écrire du code"
+    }    
+]

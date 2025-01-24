@@ -7,7 +7,11 @@
     "description": "Booki est un site permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix.",
     "code": "https://github.com/Gaudou-Noemie/Projet-Booki",
     "deployment": "https://gaudou-noemie.github.io/Projet-Booki/",
-    "languages": ["html", "css"],
+    "languages": [
+      { "name": "HTML", "icon": "fab fa-html5" },
+      { "name": "CSS", "icon": "fab fa-css3-alt" }
+    ],
+    "outils": [],
     "problem" : "Difficulté à respecter la mise en page responsive sur certains écrans.",
     "solution" : "Utilisation des media queries et ajustement précis des marges et des tailles d'image pour garantir un rendu fidèle aux maquettes."
   },
@@ -20,7 +24,11 @@
     "description": "Ce projet a consisté à réaliser l'intégration du portfolio en ligne de Sophie Bluel, architecte d'intérieur.",
     "code": "https://github.com/Gaudou-Noemie/Projet-sophie-bluel",
     "deployment": "https://gaudou-noemie.github.io/Projet-sophie-bluel/FrontEnd/",
-    "languages": ["javascript", "node.js"],
+    "languages": [
+      { "name": "JavaScript", "icon": "fab fa-js" },
+      { "name": "Node.js", "icon": "fab fa-node" }
+    ],
+    "outils": [],
     "problem" : "Gestion des appels API et affichage dynamique des projets",
     "solution" : "Implémentation de la méthode fetch pour récupérer les données et manipulation du DOM avec JavaScript."
   },
@@ -33,7 +41,11 @@
     "description": "Ce projet vise à améliorer les performances, l'accessibilité et le référencement naturel (SEO) du site de Nina Carducci, une photographe professionnelle.",
     "code": "https://github.com/Gaudou-Noemie/Projet-Nina-Carducci",
     "deployment": "https://gaudou-noemie.github.io/Projet-Nina-Carducci/",
-    "outils": ["lighthouse", "wave"],
+    "languages": [],
+    "outils": [
+      { "name": "Lighthouse", "icon": "fab fa-google" },
+      { "name": "Wave", "icon": "fas fa-poll" }
+    ],
     "problem" : "Identifier et corriger les problèmes de performances et d’accessibilité.",
     "solution" : "Analyse avec Lighthouse et Wave pour prioriser les améliorations en termes de structure et de contenu."
   },
@@ -46,7 +58,11 @@
     "description": "L'application Immobilier Location permet aux utilisateurs de trouver des propriétés à louer dans différentes villes.",
     "code": "https://github.com/Gaudou-Noemie/Projet-Kasa",
     "deployment": "https://gaudou-noemie.github.io/Projet-Kasa/",
-    "languages": ["react", "sass"],
+    "languages": [
+      { "name": "React", "icon": "fab fa-react" },
+      { "name": "Sass", "icon": "fab fa-sass" }
+    ],
+    "outils": [],
     "problem" : "Gestion des filtres et affichage des logements depuis un fichier JSON.",
     "solution" : "Mise en place d’un système de tri dynamique en JavaScript pour afficher les données selon les critères choisis par l’utilisateur."
   },
@@ -59,7 +75,12 @@
     "description": "Vieux Grimoire est un site web permettant aux utilisateurs de publié et noter les livres qu'ils ont lus.",
     "code": "https://github.com/Gaudou-Noemie/Projet-Mon-Vieux-Grimoire",
     "deployment": "https://gaudou-noemie.github.io/Projet-Mon-Vieux-Grimoire/",
-    "languages": ["node.js", "express", "mongoose"],
+    "languages": [
+      { "name": "Node.js", "icon": "fab fa-node" },
+      { "name": "Express", "icon": "fas fa-cogs" },
+      { "name": "Mongoose", "icon": "fas fa-database" }
+    ],
+    "outils": [],
     "problem" : "Sécuriser l’authentification utilisateur et les données.",
     "solution" : "Intégration de bcrypt pour les mots de passe et de JWT pour la gestion des sessions."
   }

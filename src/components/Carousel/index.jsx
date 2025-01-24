@@ -1,10 +1,10 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 import "./carousel.scss";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { logos } from "../../Data/logos.js";
+import citations from "../../Data/citations.json";
 
 function Carousel() {
   return (
@@ -13,20 +13,24 @@ function Carousel() {
         effect="coverflow"
         grabCursor={true}
         centeredSlides={true}
-        slidesPerView={3}
+        slidesPerView={1}
         loop={true}
         autoplay={{
-          delay: 1500,
+          delay: 7000,
           disableOnInteraction: false,
         }}
-        speed={1000}
-        modules={[Navigation, Pagination, Autoplay]}
-        pagination={{ clickable: true }}
+        speed={4000}
+        modules={[Navigation, Autoplay]}
         className="swiper-container"
       >
-        {logos.map((logo, index) => (
-          <SwiperSlide key={index} className="swiper-slide">
-            <img src={logo.src} alt={logo.alt} className="carousel-logo" />
+        {citations.map((citation) => (
+          <SwiperSlide key={citation.id} className="swiper-slide">
+            <div className="carousel-content">
+              <blockquote className="carousel-texte">
+                {citation.texte}
+              </blockquote>
+              <cite className="carrousel-author">– {citation.author}</cite>
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>

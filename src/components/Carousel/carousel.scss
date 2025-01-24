@@ -1,59 +1,74 @@
-@import"../../GlobalStyle/globalstyle.scss";
 
-// Conteneur du carrousel
+
+@import "../../GlobalStyle/globalstyle.scss";
+
+
 .carousel-container {
-    width: 100%;
-    max-width: 600px; 
-    height: 120px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 600px; 
+  height: auto;
+  margin: 0 auto;
 
-    @media screen and (max-width: 500px) {
-      height: 100px;
-    }
+  @media screen and (max-width: 768px) {
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
+
+  @media screen and (max-width: 500px) {
+    max-width: 100%;
+  }
+}
+
+
+.swiper-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
   
-  // Configurer le carrousel Swiper pour être horizontal
-  .swiper-container {
+  .swiper-wrapper {
+    display: flex;
+  }
+
+  .swiper-slide {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    
-    .swiper-wrapper {
-      display: flex;
-    }
-  
-    .swiper-slide {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      transition: transform 0.3s ease-in-out;
-    }
-  }
-  
-
-  .carousel-logo {
-    width: 50px;
-    height: 50px;
-    object-fit: contain;
     transition: transform 0.3s ease-in-out;
+  }
+}
 
-    @media screen and (max-width: 500px) {
-      width: 30px;
-      height: 30px;
-    }
-  
-    &.swiper-slide-active {
-      transform: scale(1.4); 
-    }
 
+.carousel-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.carousel-texte {
+  font-size: $second-size;
+  font-style: italic;
+  max-width: 80%;
+  margin: 0;
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+  @media screen and (max-width: 768px) {
+    font-size: $third-size;
   }
- // Personnaliser les points de pagination
-.swiper-pagination-bullet {
-    background-color: $third-color !important; /* Couleur des points de pagination */
-    transition: background-color 0.3s ease;
+  @media screen and (max-width: 500px) {
+    font-size: $fourth-size;
   }
-  
-  .swiper-pagination-bullet-active {
-    background-color: $ninth-color !important; /* Couleur du point actif */
+}
+
+
+.carrousel-author {
+  font-size: $fourth-size;
+  margin-top: 10px;
+  color: $seventh-color;
+
+  @media screen and (max-width: 500px) {
+    font-size: $seventh-size;
   }
+}
