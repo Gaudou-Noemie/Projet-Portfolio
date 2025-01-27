@@ -71,11 +71,34 @@
         color: $sixth-color;
         font-size: $third-size;
         margin: 16px;
+        border: 1px solid transparent;
+        transition: border-color 0.3s ease, background-color 0.3s ease;
+        padding: 5px;
+        border-radius: 8px;
 
-            @media screen and (max-width: 500px) {
-                font-size: $fourth-size;
+
+        @media screen and (max-width: 500px) {
+            font-size: $fourth-size;
+            margin: 10px;
+
+                &:active{
+                    background-color: $fourth-color;
+                    border-color: $eighth-color;
+                i {
+                    color: $second-color;
+                }
+                }
             }
-    }
+         }
+    &__links a:hover{
+                background-color: $fourth-color;
+                border-color: $eighth-color;
+
+                i {
+                    color: $second-color;
+                }
+            }
+
     &__links {
         @media screen and (max-width: 500px) {
             padding: 5px;
@@ -91,9 +114,6 @@
             font-size: $third-size;
         }
     }
-    &__links i:hover{
-        color:$eighth-color;
-     }
     &__li{
         list-style-type: none;
         padding: 2px 15px 2px 15px;

@@ -1,14 +1,32 @@
 import "./article.scss";
 import projets from "../../Data/projets.json";
+import Modal from "../Modale";
+import { useState } from "react";
 
 function Article() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedProjet, setSelectedProjet] = useState(null);
+
+  const openModal = (projet) => {
+    setSelectedProjet(projet);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedProjet(null);
+  };
+
   return (
     <div className="div">
       {projets && projets.length > 0 ? (
         projets.map((projet) => (
           <div className="articleContainer" key={projet.id}>
             <div className="articleContainer__element">
-              <div className="articleContainer__divImg">
+              <div
+                className="articleContainer__divImg"
+                onClick={() => openModal(projet)}
+              >
                 <img
                   className="articleContainer__img"
                   src={projet.img}
@@ -61,6 +79,7 @@ function Article() {
       ) : (
         <p> Aucun projet trouvé</p>
       )}
+      {isModalOpen && <Modal projet={selectedProjet} closeModal={closeModal} />}
     </div>
   );
 }

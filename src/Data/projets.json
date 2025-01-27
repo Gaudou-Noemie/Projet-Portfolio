@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "Booki",
-    "img": "images/booki.webp",
+    "img": "images/booki.png",
     "objective": "Ce projet à pour objectif d'intégrer l'interface d'un site web en HTML et CSS en respectant les maquettes fournies, tout en rendant le site responsive pour une expérience optimale sur desktop, tablette, et mobile.",
     "description": "Booki est un site permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix.",
     "code": "https://github.com/Gaudou-Noemie/Projet-Booki",
@@ -19,7 +19,7 @@
   {
     "id": "2",
     "title": "Sophie Bluel",
-    "img": "images/sophie-bluel.webp",
+    "img": "images/sophie-bluel.png",
     "objective": "L'objectif du projet était de transformer la version statique du site en une version dynamique, en ajoutant de nouvelles fonctionnalités et en intégrant le back-end, tout en utilisant une API pour la persistance des données liées aux projets.",
     "description": "Ce projet a consisté à réaliser l'intégration du portfolio en ligne de Sophie Bluel, architecte d'intérieur.",
     "code": "https://github.com/Gaudou-Noemie/Projet-sophie-bluel",
@@ -36,7 +36,7 @@
   {
     "id": "3",
     "title": "Nina Carducci",
-    "img": "images/nina-carducci.webp",
+    "img": "images/nina-carducci.png",
     "objective": "L'objectif étais de rendre le site plus rapide, plus accessible et mieux référencé sur les moteurs de recherche afin d'augmenter sa visibilité et d'attirer davantage de clients.",
     "description": "Ce projet vise à améliorer les performances, l'accessibilité et le référencement naturel (SEO) du site de Nina Carducci, une photographe professionnelle.",
     "code": "https://github.com/Gaudou-Noemie/Projet-Nina-Carducci",
@@ -53,11 +53,11 @@
   {
     "id": "4",
     "title": "Kasa",
-    "img": "images/kasa.webp",
+    "img": "images/kasa.png",
     "objective": "L'objectif étais de créer une interface dynamique et responsive, en suivant les maquettes Figma et en mettant en œuvre des fonctionnalités permettant de filtrer et afficher les propriétés disponibles.",
-    "description": "L'application Immobilier Location permet aux utilisateurs de trouver des propriétés à louer dans différentes villes.",
+    "description": "L'application Immobilière de Location permet aux utilisateurs de trouver des propriétés à louer dans différentes villes.",
     "code": "https://github.com/Gaudou-Noemie/Projet-Kasa",
-    "deployment": "https://gaudou-noemie.github.io/Projet-Kasa/",
+    "deployment": "https://musical-bavarois-212424.netlify.app/",
     "languages": [
       { "name": "React", "icon": "fab fa-react" },
       { "name": "Sass", "icon": "fab fa-sass" }
@@ -70,7 +70,7 @@
   {
     "id": "5",
     "title": "Mon Vieux Grimoire",
-    "img": "images/mon-vieux-grimoire.webp",
+    "img": "images/mon-vieux-grimoire.png",
     "objective": "L'objectif était de développer le back-end d'une application permettant de gérer un livre. Les fonctionnalités incluent la création, la mise à jour, et la suppression des livres, ainsi que l'ajout de notations par les utilisateurs et le calcul de la note moyenne.",
     "description": "Vieux Grimoire est un site web permettant aux utilisateurs de publié et noter les livres qu'ils ont lus.",
     "code": "https://github.com/Gaudou-Noemie/Projet-Mon-Vieux-Grimoire",

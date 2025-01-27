@@ -9,6 +9,11 @@
     color: $seventh-color;
     margin-top: 30px;
 
+    border-top: 3px solid $second-color;
+    animation: borderColorCycle 12s infinite ease-in-out;;
+
+        
+
     @media screen and (max-width:500px) {
         margin-top: 24px;
     }
@@ -33,5 +38,16 @@
         @media screen and (max-width: 500px){
             font-size: $seventh-size;
         }
+    }
+  }
+  @keyframes borderColorCycle {
+    0% {
+      border-color: $second-color;
+    }
+    50% {
+      border-color: $ninth-color;
+    }
+    100% {
+      border-color: darken($ninth-color, 15%);
     }
   }

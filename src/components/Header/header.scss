@@ -44,7 +44,7 @@
     &__lien{
         position: relative;
         text-decoration: none;
-        color: $fifth-color;
+        color: $seventh-color;
         text-transform: uppercase;
         height: 28px;
 
@@ -57,7 +57,7 @@
             animation: click-effect 0.6s ease;
             padding: 5px;
             color: lighten($ninth-color, 60%);
-            background-color: $ninth-color;
+            background-color: $second-color;
             border-radius: 8px;
           }
         }
@@ -100,8 +100,9 @@
       }
     }
     &__img{
-        width: 170px;
+        width: 130px;
         display: block;
+        height: 113px;
 
         @media screen and (max-width: 768px) {
           max-width: 130px;
@@ -117,7 +118,9 @@
   
       @media screen and (max-width: 500px) {
           display: block ;
-          max-width: 80px;
+          width: 80px;
+          height: 53px;
+
         }
       }
  }

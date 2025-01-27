@@ -28,6 +28,7 @@
     }
   
     &__img.active {
+      content-visibility: auto;
       opacity: 1;
       z-index: 2;
     }

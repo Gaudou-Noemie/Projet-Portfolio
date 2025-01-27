@@ -1,105 +1,103 @@
 @import "../../GlobalStyle/globalstyle.scss";
 
-.contactContainer{
+.contactContainer {
     display: flex;
     flex-direction: column;
     width: 45%;
     height: 378px;
     align-items: center;
-    
+  
     @media screen and (max-width: 500px) {
-        width: 100%;
-        height: auto;
+      width: 100%;
+      height: auto;
     }
-
-
-&__title{
-    font-weight: 500;
-    color: $sixth-color;
-    padding-bottom: 30px;
-    text-align: center;
-    font-size: $first-size;
-
-
-        @media screen and (max-width: 768px) {
-            font-size: $second-size;
-        }
-
+  
+    &__title {
+      font-weight: 500;
+      color: $sixth-color;
+      padding-bottom: 30px;
+      text-align: center;
+      font-size: $first-size;
+  
+      @media screen and (max-width: 768px) {
+        font-size: $second-size;
+      }
+  
+      @media screen and (max-width: 500px) {
+        font-size: $third-size;
+        margin-top: 26px;
+      }
+    }
+  
+    &__lien {
+      display: flex;
+      flex-direction: column;
+      gap: 27px;
+      max-width: 63%;
+      max-height: 294px;
+      flex-wrap: wrap;
+  
+      @media screen and (max-width: 768px) {
+        font-size: $third-size;
+        max-height: 230px;
+        margin-top: 20px;
+      }
+  
+      @media screen and (max-width: 500px) {
+        width: auto;
+        font-size: $fourth-size;
+        max-height: 300px;
+      }
+  
+      a {
+        display: flex;
+        flex-direction: column;
+        color: $seventh-color;
+        text-decoration: none;
+        margin: 2px;
+        padding: 4px;
+        text-align: center;
+        max-width: 132px;
+  
         @media screen and (max-width: 500px) {
-            font-size: $third-size;
-            margin-top: 26px;
-        }
-}
-
-&__lien{
-    display: flex;
-    flex-direction: column;
-    gap: 27px;
-    max-width: 63%;
-    max-height: 294px;
-    flex-wrap: wrap;
-
-        @media screen and (max-width: 768px) {
-            font-size: $third-size;
-            max-height: 230px;
-            margin-top: 20px;
-        }
-
-        @media screen and (max-width: 500px) {
-            width: auto;
-            font-size: $fourth-size;
-            max-height: 300px;
-        }
-}
-&__lien i {
-    color: $ninth-color;
-    font-size: 63px;
-    transition: color 0.3s ease;
-
-        @media screen and (max-width: 768px) {
-            font-size: 40px;
-        }
-
-        @media screen and (max-width: 500px) {
-            font-size: $first-size;
-
-            &:active {
-                animation: click-effect 0.6s ease;
-                color: lighten($ninth-color, 60%);
-              }
-        }
-    
-}
-&__lien i:hover{
-    color:$eighth-color;
- }
-
-
-&__lien a{
-    display: flex;
-    flex-direction: column;
-    color: $seventh-color;
-    text-decoration: none;
-    margin: 2px;
-    padding: 4px;
-    text-align: center;
-    max-width: 132px;
-         
-        
-        @media screen and (max-width: 500px) {
-            &:active {
-                animation: click-effect 0.6s ease;
-                color: lighten($ninth-color, 60%);
-                background-color: $ninth-color;
-                border-radius: 11px;
+          &:active {
+            animation: click-effect 0.6s ease;
+            color: lighten($ninth-color, 60%);
+            background-color: $ninth-color;
+            border-radius: 11px;
           }
         }
+  
+        &:active i {
+          color: darken($ninth-color, 20%);
+        }
+      }
+  
+      i {
+        color: $ninth-color;
+        font-size: 63px;
+        transition: color 0.3s ease;
+  
+        @media screen and (max-width: 768px) {
+          font-size: 40px;
+        }
+  
+        @media screen and (max-width: 500px) {
+          font-size: $first-size;
+        }
+  
+        &:hover {
+          color: $second-color;
+        }
+      }
     }
-}
-.pdf {
-font-size: $fourth-size;
-}
-@keyframes click-effect {
+  }
+  
+  .pdf {
+    font-size: $fourth-size;
+  }
+  
+  @keyframes click-effect {
     0% {
       transform: scale(1);
       box-shadow: 0 4px 10px rgba($ninth-color, 0.3);
