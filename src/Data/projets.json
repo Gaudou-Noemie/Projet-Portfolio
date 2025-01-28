@@ -74,7 +74,7 @@
     "objective": "L'objectif était de développer le back-end d'une application permettant de gérer un livre. Les fonctionnalités incluent la création, la mise à jour, et la suppression des livres, ainsi que l'ajout de notations par les utilisateurs et le calcul de la note moyenne.",
     "description": "Vieux Grimoire est un site web permettant aux utilisateurs de publié et noter les livres qu'ils ont lus.",
     "code": "https://github.com/Gaudou-Noemie/Projet-Mon-Vieux-Grimoire",
-    "deployment": "https://gaudou-noemie.github.io/Projet-Mon-Vieux-Grimoire/",
+    "deployment": "https://gaudounoemiemonvieuxgrimoire.netlify.app/",
     "languages": [
       { "name": "Node.js", "icon": "fab fa-node" },
       { "name": "Express", "icon": "fas fa-cogs" },
