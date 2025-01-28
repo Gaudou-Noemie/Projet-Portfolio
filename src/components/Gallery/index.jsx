@@ -34,6 +34,7 @@ function Gallery() {
           key={index}
           src={picture.src}
           alt={picture.alt}
+          loading={index > 1 ? "lazy" : "eager"}
           className={`gallery__img ${
             index === currentIndex ? "active" : "inactive"
           }`}
