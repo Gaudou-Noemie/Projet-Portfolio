@@ -15,7 +15,6 @@ function MyCv() {
             loading="lazy"
           />
         </div>
-
         <Contact />
       </div>
     </div>
