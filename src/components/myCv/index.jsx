@@ -1,4 +1,4 @@
-import "./myCv.scss";
+import "./MyCv.scss";
 import Img from "../../assets/CV-2025.webp";
 import Contact from "../Contact";
 
