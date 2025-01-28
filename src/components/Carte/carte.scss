@@ -21,7 +21,8 @@ font-family: $first-font;
 }
 
   &__element{
-     background-color: $fourth-color;
+    width: 100%;
+  background-color: $fourth-color;
   font-family: $first-font;
   padding: 27px;
   padding-bottom: 40px;
@@ -29,17 +30,6 @@ font-family: $first-font;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-      @media screen and (max-width: 768px) {
-        width: 100%;
-      }
-
-      @media screen and (max-width: 500px) {
-        width: 288px;
-        padding: 0;
-        padding-top: 30px;
-        padding-bottom: 40px;
-      }
   }
 
   &__title {

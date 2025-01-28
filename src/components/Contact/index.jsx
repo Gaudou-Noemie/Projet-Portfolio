@@ -35,13 +35,13 @@ function Contact() {
           <i className="fab fa-github"></i> Github
         </a>
         <a
-          href="./CV-2025.pdf"
+          href="./CV 2025.pdf"
           download={true}
           className="contactContainer__pdf"
           type="application/pdf"
           aria-label="Télécharger le CV de Noémie Gaudou au format PDF (taille : 1 Mo)"
         >
-          <i className="fas fa-file-pdf"></i> Télécharger{" "}
+          <i className="fas fa-file-pdf"></i> Télécharger
           <span className="pdf">(PDF)</span>
         </a>
       </div>
