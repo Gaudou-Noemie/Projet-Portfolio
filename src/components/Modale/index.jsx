@@ -1,3 +1,5 @@
+// Fonction qui crée la modale pour chaque projet.
+
 import React from "react";
 import "./modale.scss";
 

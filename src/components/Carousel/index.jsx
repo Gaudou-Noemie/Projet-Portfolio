@@ -1,3 +1,5 @@
+// Fonction qui retourne le carousel de citation
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "./carousel.scss";

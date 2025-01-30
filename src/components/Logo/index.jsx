@@ -1,3 +1,5 @@
+// Fonction qui les logos pour Resume
+
 import logos from "../../Data/logo.json";
 import "./logo.scss";
 

@@ -1,3 +1,5 @@
+// Fonction qui retourne le Cv
+
 import "./resume.scss";
 import Contact from "../Contact";
 import Logo from "../Logo";

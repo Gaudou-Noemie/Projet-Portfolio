@@ -1,37 +1,35 @@
+// Style Global du site.
 
-$first-font: 'Montserrat', sans-serif;
-$second-font: 'Playfaire';
-
+$first-font: "Montserrat", sans-serif;
+$second-font: "Playfaire";
 
 $first-color: black;
 $second-color: #d41588;
 $third-color: #918f8c;
-$fourth-color:#eaeaea ;
-$fifth-color:#737372;
-$sixth-color:#3d3b3a;
-$seventh-color:#646260 ;
-$eighth-color:#e29acd;
-$ninth-color:#f8b8de;
+$fourth-color: #eaeaea;
+$fifth-color: #737372;
+$sixth-color: #3d3b3a;
+$seventh-color: #646260;
+$eighth-color: #e29acd;
+$ninth-color: #f8b8de;
 
-$first-size:24px;
-$second-size:18px;
-$third-size:14px;
-$fourth-size:12px;
+$first-size: 24px;
+$second-size: 18px;
+$third-size: 14px;
+$fourth-size: 12px;
 $fifth-size: 35px;
-$sixth-size:80px;
-$seventh-size:10px;
+$sixth-size: 80px;
+$seventh-size: 10px;
 
-.container{
-    margin: auto;
-    max-width: 1240px;
-    width: 100%;
-    padding: 20px;
+.container {
+  margin: auto;
+  max-width: 1240px;
+  width: 100%;
+  padding: 20px;
 }
 
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
-

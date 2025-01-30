@@ -1,3 +1,5 @@
+// Fonction qui retourne le Footer
+
 import Carousel from "../Carousel";
 import "./footer.scss";
 

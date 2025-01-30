@@ -1,3 +1,5 @@
+// Fonction qui retourne chaque Projet
+
 import "./article.scss";
 import projets from "../../Data/projets.json";
 import Modal from "../Modale";

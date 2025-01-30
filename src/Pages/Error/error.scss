@@ -1,91 +1,88 @@
 @import "../../GlobalStyle/globalstyle.scss";
 
-.error{
-    display: flex;
-    flex-direction: row;
-    font-family: $first-font;
+.error {
+  display: flex;
+  flex-direction: row;
+  font-family: $first-font;
+  align-items: center;
+  justify-content: space-around;
+
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    text-align: center;
+    margin: 5px;
+  }
 
-        @media screen and (max-width: 500px) {
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            margin: 5px;
-        }
-
-&__title{
+  &__title {
     color: $fifth-color;
     font-size: $fifth-size;
     font-weight: 400;
     margin-bottom: 20px;
-      
-        @media screen and (max-width: 768px) {
-            font-size: $first-size;
-        }
-       
-        @media screen and (max-width: 500px) {
-            font-size: $second-size;
-        }
+
+    @media screen and (max-width: 768px) {
+      font-size: $first-size;
     }
-&__p{
+
+    @media screen and (max-width: 500px) {
+      font-size: $second-size;
+    }
+  }
+  &__p {
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: $seventh-color;
     margin-bottom: 10px;
-  
 
-        @media screen and (max-width: 500px) {
-            font-size: $third-size;
-            order: 2;
-        }
- 
-}
-&__content{
-        @media screen and (max-width: 500px) {
-            padding-top: 0%;
-        }
-}
-&__4{
-   
+    @media screen and (max-width: 500px) {
+      font-size: $third-size;
+      order: 2;
+    }
+  }
+  &__content {
+    @media screen and (max-width: 500px) {
+      padding-top: 0%;
+    }
+  }
+  &__4 {
     font-size: 270px;
-    color:$third-color;
+    color: $third-color;
     font-weight: bold;
     text-shadow: 3px 4px 4px $ninth-color;
     animation: zoom-in 1s ease-out forwards;
     margin-bottom: 20px;
 
     @media screen and (max-width: 1024px) {
-        font-size: 200px;
+      font-size: 200px;
     }
 
-        @media screen and (max-width: 768px) {
-            font-size: 130px;
-        }
+    @media screen and (max-width: 768px) {
+      font-size: 130px;
+    }
 
-        @media screen and (max-width: 500px) {
-            font-size: 90px;
-        }
-}
-&__lien{
+    @media screen and (max-width: 500px) {
+      font-size: 90px;
+    }
+  }
+  &__lien {
     text-decoration: none;
-    color:$fifth-color;
+    color: $fifth-color;
     padding-top: 5px;
     font-size: $fourth-size;
 
-        @media screen and (max-width: 500px) {
-            font-size: $seventh-size;
-        }
-    }
-}
-@keyframes zoom-in {
-    0% {
-      transform: scale(0.5);
-      opacity: 0;
-    }
-    100% {
-      transform: scale(1);
-      opacity: 1;
+    @media screen and (max-width: 500px) {
+      font-size: $seventh-size;
     }
   }
+}
+@keyframes zoom-in {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

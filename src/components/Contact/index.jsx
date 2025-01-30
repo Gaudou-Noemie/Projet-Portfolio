@@ -1,3 +1,5 @@
+// Fonction qui retourne les liens de contacts
+
 import "./contact.scss";
 
 function Contact() {

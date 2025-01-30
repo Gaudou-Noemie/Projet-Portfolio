@@ -1,3 +1,5 @@
+// Fonction qui retourne le MyCv
+
 import "./MyCv.scss";
 import Resume from "../Resume";
 

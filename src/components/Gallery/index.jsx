@@ -1,3 +1,5 @@
+// Fonction qui retourne la Gallery
+
 import React, { useState, useEffect } from "react";
 import { pictures } from "../../Data/pictures";
 import { mobilePictures } from "../../Data/pictures";

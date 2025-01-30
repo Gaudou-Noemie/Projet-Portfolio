@@ -1,3 +1,5 @@
+// Fonction qui retourne les Articles.
+
 import "./projets.scss";
 import Article from "../Article";
 
