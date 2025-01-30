@@ -1,0 +1,38 @@
+[
+    {
+      "name": "HTML5",
+      "icon": "fab fa-html5"
+    },
+    {
+      "name": "CSS3",
+      "icon": "fab fa-css3-alt"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "fab fa-js"
+    },
+    {
+      "name": "React",
+      "icon": "fab fa-react"
+    },
+    {
+      "name": "Node.js",
+      "icon": "fab fa-node-js"
+    },
+    {
+      "name": "npm",
+      "icon": "fab fa-npm"
+    },
+    {
+      "name": "GitHub",
+      "icon": "fab fa-github"
+    },
+    {
+      "name": "MongoDB",
+      "icon": "fas fa-database"
+    },
+    {
+      "name": "API REST",
+      "icon": "fas fa-server"
+    }
+  ]

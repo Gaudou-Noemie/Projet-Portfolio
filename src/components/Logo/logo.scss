@@ -1,0 +1,36 @@
+@import "../../GlobalStyle/globalstyle.scss";
+
+.logoContainer {
+  display: flex;
+  gap: 8px;
+  text-align: center;
+  padding: 20px;
+  font-family: $first-font;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @media screen and (max-width: 500px) {
+    gap: 0;
+  }
+
+  &__skill {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+  &__skill i {
+    font-size: $first-size;
+    color: $eighth-color;
+    padding: 3px;
+  }
+  &__name {
+    margin-top: 5px;
+    font-size: $third-size;
+  }
+}

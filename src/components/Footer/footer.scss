@@ -1,53 +1,52 @@
 @import "../../GlobalStyle/globalstyle.scss";
 
-
 .footerContainer {
-    font-family: $first-font;
-    padding: 20px;
-    background-color: $fourth-color;
-    text-align: center;
-    color: $seventh-color;
-    margin-top: 30px;
+  font-family: $first-font;
+  padding: 20px;
+  background-color: $fourth-color;
+  text-align: center;
+  color: $seventh-color;
+  margin: auto;
 
-    border-top: 3px solid $second-color;
-    animation: borderColorCycle 12s infinite ease-in-out;;
+  width: 100%;
 
-        
+  border-top: 3px solid $second-color;
+  animation: borderColorCycle 12s infinite ease-in-out;
 
-    @media screen and (max-width:500px) {
-        margin-top: 24px;
+  @media screen and (max-width: 500px) {
+    margin-top: 24px;
+  }
+
+  &__title {
+    font-size: $first-size;
+    font-weight: 400;
+    padding: 15px;
+    color: $sixth-color;
+
+    @media screen and (max-width: 768px) {
+      font-size: $second-size;
     }
-
-    &__title{
-        font-size: $first-size;
-        font-weight: 400;
-        padding: 15px;
-        color: $sixth-color;
-
-        @media screen and (max-width: 768px) {
-            font-size: $second-size;
-        }
-        @media screen and (max-width: 500px) {
-            font-size: $third-size;
-        }
-    }
-    &__reserver{
-        padding-top: 8px;
-        font-size: $fourth-size;
-
-        @media screen and (max-width: 500px){
-            font-size: $seventh-size;
-        }
+    @media screen and (max-width: 500px) {
+      font-size: $third-size;
     }
   }
-  @keyframes borderColorCycle {
-    0% {
-      border-color: $second-color;
-    }
-    50% {
-      border-color: $ninth-color;
-    }
-    100% {
-      border-color: darken($ninth-color, 15%);
+  &__reserver {
+    padding-top: 8px;
+    font-size: $fourth-size;
+
+    @media screen and (max-width: 500px) {
+      font-size: $seventh-size;
     }
   }
+}
+@keyframes borderColorCycle {
+  0% {
+    border-color: $second-color;
+  }
+  50% {
+    border-color: $ninth-color;
+  }
+  100% {
+    border-color: darken($ninth-color, 15%);
+  }
+}

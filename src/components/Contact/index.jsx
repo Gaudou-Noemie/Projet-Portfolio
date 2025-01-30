@@ -3,17 +3,13 @@ import "./contact.scss";
 function Contact() {
   return (
     <div className="contactContainer">
-      <h2 className="contactContainer__title">
-        Mon CV est à votre disposition, et je suis à portée de clic pour toute
-        question.
-      </h2>
       <div className="contactContainer__lien">
         <a
           className="contactContainer__email"
           href="mailto:gaudou.noemie@gmail.com"
           aria-label="Envoyer un emai"
         >
-          <i className="fas fa-envelope"></i> Contactez-moi
+          <i className="fas fa-envelope"></i> Mail
         </a>
 
         <a
@@ -41,7 +37,7 @@ function Contact() {
           type="application/pdf"
           aria-label="Télécharger le CV de Noémie Gaudou au format PDF (taille : 1 Mo)"
         >
-          <i className="fas fa-file-pdf"></i> Télécharger
+          <i className="fas fa-file-pdf"></i> Cv
           <span className="pdf">(PDF)</span>
         </a>
       </div>
