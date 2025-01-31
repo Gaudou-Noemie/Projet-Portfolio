@@ -5,6 +5,7 @@ import Typed from "typed.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuoteLeft, faQuoteRight } from "@fortawesome/free-solid-svg-icons";
 import Photo from "../../assets/Photo.webp";
+import Logo from "../Logo";
 import "./carte.scss";
 
 function Carte() {
@@ -74,6 +75,9 @@ function Carte() {
             </p>
           </div>
         </div>
+        <section className="carteContainer__skills">
+          <Logo />
+        </section>
       </div>
     </div>
   );

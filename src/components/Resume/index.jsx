@@ -2,9 +2,8 @@
 
 import "./resume.scss";
 import Contact from "../Contact";
-import Logo from "../Logo";
 import me1 from "../../assets/me1.jpg";
-import me2 from "../../assets/me2.jpg";
+import Progress from "../Progress";
 
 function Resume() {
   return (
@@ -54,18 +53,9 @@ function Resume() {
                 alt="Portrait de la créatrice du site."
               />
             </div>
-            <div className="resumeContainer__img2">
-              <img
-                className="resumeContainer__me2"
-                src={me2}
-                alt="Vue des mains sur le clavier d'un ordinateur."
-              />
-            </div>
           </div>
         </div>
-        <section className="resumeContainer__skills">
-          <Logo />
-        </section>
+        <Progress />
       </div>
     </div>
   );

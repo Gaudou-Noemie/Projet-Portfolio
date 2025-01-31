@@ -9,6 +9,7 @@
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
+  color: $seventh-color;
 
   @media screen and (max-width: 500px) {
     gap: 0;

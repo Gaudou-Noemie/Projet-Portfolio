@@ -20,6 +20,7 @@
     font-weight: 400;
     font-size: 38px;
     text-align: center;
+    color: $sixth-color;
     padding: 6px;
 
     @media screen and (max-width: 768px) {
@@ -58,6 +59,7 @@
     height: 500px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
     @media screen and (max-width: 500px) {
       height: 100%;
@@ -69,6 +71,7 @@
     width: 300px;
     height: 300px;
     border: 3px solid #ccc;
+    transition: border-color 0.3s ease, transform 0.3s ease;
     border-radius: 50%;
     overflow: hidden;
 
@@ -82,39 +85,18 @@
       height: 200px;
     }
   }
-
-  &__img2 {
-    width: 250px;
-    height: 250px;
-    border: 3px solid #ccc;
-    border-radius: 50%;
-    overflow: hidden;
-
-    @media screen and (max-width: 768px) {
-      width: 200px;
-      height: 200px;
-    }
-
-    @media screen and (max-width: 500px) {
-      width: 150px;
-      height: 150px;
-    }
+  &__img1:hover {
+    border-color: $ninth-color;
+    transform: scale(1.1);
   }
 
-  &__me1,
-  &__me2 {
+  &__me1 {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
   }
 
-  &__skills {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
   &__experience {
     display: flex;
     flex-direction: column;
@@ -123,6 +105,7 @@
     font-weight: 400;
     font-size: $first-size;
     padding: 5px;
+    color: $sixth-color;
 
     @media screen and (max-width: 500px) {
       font-size: $second-size;
