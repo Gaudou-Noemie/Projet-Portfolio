@@ -1,3 +1,5 @@
+//function qui crée les progressions
+
 import progress from "../../Data/progress.json";
 import "./progress.scss";
 
