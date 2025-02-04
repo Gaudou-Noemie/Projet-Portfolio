@@ -12,7 +12,7 @@ function ContactMe() {
         window.iFrameResize(
           {
             log: true,
-            targetOrigin: "https://gaudounoemieportfolio.netlify.app",
+            targetOrigin: "https://tally.so",
           },
           iframe
         );
