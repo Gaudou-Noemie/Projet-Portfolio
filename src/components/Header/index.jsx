@@ -70,6 +70,14 @@ function Header() {
         </NavLink>
 
         <NavLink
+          to="/contact"
+          className="headerContainer__lien"
+          onClick={handleCloseMenu}
+        >
+          CONTACT
+        </NavLink>
+
+        <NavLink
           to="/cv"
           className="headerContainer__lien"
           onClick={handleCloseMenu}
