@@ -9,7 +9,13 @@ function ContactMe() {
     script.onload = () => {
       const iframe = document.querySelector("iframe");
       if (iframe) {
-        window.iFrameResize({}, iframe); // Sans log
+        window.iFrameResize(
+          {
+            log: true,
+            targetOrigin: "https://gaudounoemieportfolio.netlify.app",
+          },
+          iframe
+        ); // Sans log
       }
     };
     script.onerror = () => console.error("Error loading iframeResizer");
