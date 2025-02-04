@@ -11,7 +11,6 @@ function ContactMe() {
       if (iframe) {
         window.iFrameResize(
           {
-            log: true,
             targetOrigin: "https://tally.so",
           },
           iframe
@@ -23,13 +22,8 @@ function ContactMe() {
 
     const handleMessage = (event) => {
       if (event.origin !== "https://tally.so") {
-        console.warn(
-          "Message provenant d'une origine non autorisée:",
-          event.origin
-        );
         return;
       }
-      console.log("Message reçu:", event.data);
     };
 
     window.addEventListener("message", handleMessage);
