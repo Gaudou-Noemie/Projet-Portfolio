@@ -12,8 +12,7 @@ function ContactMe() {
         window.iFrameResize(
           {
             log: true,
-            // Change * to the actual origin of the iframe's content
-            targetOrigin: "https://tally.so", // Sécuriser en spécifiant une origine exacte
+            targetOrigin: "https://tally.so",
           },
           iframe
         );
@@ -22,24 +21,19 @@ function ContactMe() {
     script.onerror = () => console.error("Error loading iframeResizer");
     document.body.appendChild(script);
 
-    // Ajout d'un écouteur de message
     const handleMessage = (event) => {
-      // Vérifie que le message vient bien de https://tally.so
       if (event.origin !== "https://tally.so") {
         console.warn(
           "Message provenant d'une origine non autorisée:",
           event.origin
         );
-        return; // Ignorer le message si l'origine est incorrecte
+        return;
       }
-
-      // Traite le message ici
       console.log("Message reçu:", event.data);
     };
 
     window.addEventListener("message", handleMessage);
 
-    // Nettoyage de l'écouteur et du script lors du démontage du composant
     return () => {
       document.body.removeChild(script);
       window.removeEventListener("message", handleMessage);
