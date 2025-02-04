@@ -12,7 +12,7 @@ function ContactMe() {
         window.iFrameResize(
           {
             log: true,
-            targetOrigin: "https://tally.so",
+            targetOrigin: "*",
           },
           iframe
         );
