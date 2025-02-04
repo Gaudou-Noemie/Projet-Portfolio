@@ -15,7 +15,7 @@ function ContactMe() {
             targetOrigin: "https://gaudounoemieportfolio.netlify.app",
           },
           iframe
-        ); // Sans log
+        );
       }
     };
     script.onerror = () => console.error("Error loading iframeResizer");
