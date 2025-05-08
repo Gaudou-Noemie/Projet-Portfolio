@@ -111,10 +111,7 @@
     "languages": [
       { "name": "TypeScript", "icon": "fas fa-code" },
       { "name": "React", "icon": "fab fa-react" },
-      { "name": "SCSS", "icon": "fab fa-sass" },
-      { "name": "Node.js", "icon": "fab fa-node" },
-      { "name": "Express", "icon": "fas fa-cogs" },
-      { "name": "MongoDB", "icon": "fas fa-database" }
+      { "name": "Node.js", "icon": "fab fa-node" }
     ],
     "outils": [],
     "problem": "Créer un portfolio administrable avec une structure front/back claire, sécurisée et bien organisée.",
