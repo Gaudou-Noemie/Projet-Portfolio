@@ -83,5 +83,42 @@
     "outils": [],
     "problem" : "Sécuriser l’authentification utilisateur et les données.",
     "solution" : "Intégration de bcrypt pour les mots de passe et de JWT pour la gestion des sessions."
+  },
+  {
+    "id": "6",
+    "title": "Portfolio",
+    "img": "images/site.png",
+    "objective": "L'objectif était de concevoir et développer un portfolio personnel responsive permettant de présenter mes projets, mon parcours et mes compétences de manière claire et professionnelle.",
+    "description": "Ce portfolio, réalisé avec React, met en avant mes projets de développement web, mon CV, ainsi qu'une section 'À propos'. Il a été pensé pour offrir une navigation fluide et un design épuré.",
+    "code": "https://github.com/Gaudou-Noemie/Projet-Portfolio",
+    "deployment": "https://gaudounoemieportfolio.netlify.app/",
+    "languages": [
+      { "name": "React", "icon": "fab fa-react" },
+      { "name": "SCSS", "icon": "fab fa-sass" }
+    ],
+    "outils": [],
+    "problem" : "Proposer une interface à la fois esthétique, intuitive et responsive pour tous types d’utilisateurs.",
+    "solution" : "Utilisation de React pour la gestion des composants, SCSS pour la personnalisation fine du style, et mise en place d’une structure claire pour l’organisation des projets."
+  },
+  {
+    "id": "7",
+    "title": "Portfolio Full Stack",
+    "img": "images/portfolio-full-stack.png",
+    "objective": "L'objectif était de développer un portfolio full stack en TypeScript avec un front en React et un back-end connecté, afin de présenter mes projets et de gérer dynamiquement les données.",
+    "description": "Ce portfolio dynamique permet de gérer et d'afficher mes projets via une API. Il est entièrement réalisé avec React et TypeScript, et dispose d’un back-end en ligne pour la gestion des données.",
+    "code": "https://github.com/Gaudou-Noemie/Portfolio",
+    "deployment": "https://noemie-dev.netlify.app/",
+    "languages": [
+      { "name": "TypeScript", "icon": "fas fa-code" },
+      { "name": "React", "icon": "fab fa-react" },
+      { "name": "SCSS", "icon": "fab fa-sass" },
+      { "name": "Node.js", "icon": "fab fa-node" },
+      { "name": "Express", "icon": "fas fa-cogs" },
+      { "name": "MongoDB", "icon": "fas fa-database" }
+    ],
+    "outils": [],
+    "problem": "Créer un portfolio administrable avec une structure front/back claire, sécurisée et bien organisée.",
+    "solution": "Séparation front/back, typage strict avec TypeScript, gestion des appels API avec axios, déploiement du front sur Netlify et du back-end sur Render, avec MongoDB Atlas pour la base de données."
   }
+
 ]
