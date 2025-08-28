@@ -119,7 +119,7 @@
   },
   {
   "id": "8",
-  "title": "Pwopp - Application Éco-Responsable",
+  "title": "Pwopp",
   "img": "images/pwopp.png",
   "objective": "L’objectif de Pwopp était de concevoir une application web permettant d’organiser et de participer à des événements de recyclage de déchets, afin de sensibiliser les citoyens et de favoriser des actions collectives pour l’environnement.",
   "description": "Pwopp est une application qui met en relation des utilisateurs souhaitant créer ou rejoindre des événements de recyclage. Elle permet la gestion des profils, la création d’événements, l’inscription des participants et le suivi des actions. L’interface est développée en React, les données actuelles sont en dur pour la création de l'interface.",
