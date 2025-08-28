@@ -45,9 +45,11 @@
   &__div {
     display: flex;
     justify-content: space-around;
+    padding: 20px;
 
     @media screen and (max-width: 500px) {
       flex-direction: column-reverse;
+      padding: 0;
     }
   }
   &__info {
