@@ -116,6 +116,22 @@
     "outils": [],
     "problem": "Créer un portfolio administrable avec une structure front/back claire, sécurisée et bien organisée.",
     "solution": "Séparation front/back, typage strict avec TypeScript, gestion des appels API avec axios, déploiement du front sur Netlify et du back-end sur Render, avec MongoDB Atlas pour la base de données."
-  }
+  },
+  {
+  "id": "8",
+  "title": "Pwopp - Application Éco-Responsable",
+  "img": "images/pwopp.png",
+  "objective": "L’objectif de Pwopp était de concevoir une application web permettant d’organiser et de participer à des événements de recyclage de déchets, afin de sensibiliser les citoyens et de favoriser des actions collectives pour l’environnement.",
+  "description": "Pwopp est une application qui met en relation des utilisateurs souhaitant créer ou rejoindre des événements de recyclage. Elle permet la gestion des profils, la création d’événements, l’inscription des participants et le suivi des actions. L’interface est développée en React, les données actuelles sont en dur pour la création de l'interface.",
+  "code": "https://github.com/Gaudou-Noemie/pwopp-",
+  "deployment": "https://github.com/Gaudou-Noemie/pwopp-/deployments/github-pages",
+  "languages": [
+    { "name": "React", "icon": "fab fa-react" },
+    { "name": "SCSS", "icon": "fab fa-sass" }
+  ],
+  "outils": [],
+  "problem": "Comment créer une plateforme collaborative qui permette de centraliser et gérer des événements de recyclage, tout en restant simple d’utilisation et scalable ?",
+  "solution": "Mise en place d’une architecture front claire, l’application est conçue pour être évolutive et responsive."
+}
 
 ]
