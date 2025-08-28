@@ -20,11 +20,9 @@ function Resume() {
                 Expérience Professionnelle
               </h2>
               <ul className="resumeContainer__list">
-                <li>2023 – 2024 : Assistante Maternelle</li>
-                <li>2020 – 2021 : Secrétaire, Paris Fenêtres</li>
-                <li>2016 – 2020 : Fleuriste, Histoire de Fleurs</li>
-                <li>2015 – 2016 : Conseillère vendeuse, La Mode est à Vous</li>
-                <li>2015 (7 mois) : Serveuse, Feel Good Coffee</li>
+                <li>2025 – : Développeur Full-stack-Concepteur/Ingégrateur React/UX</li>
+                <li>2020 – 2021 : Responsable administratif (CDI)</li>
+                <li>2010 – 2020 : Conseillère vente (CDI)</li>
               </ul>
             </section>
 
@@ -33,13 +31,7 @@ function Resume() {
               <ul className="resumeContainer__list">
                 <li>2024 – 2025 : Développeur Web, OpenClassrooms</li>
                 <li>
-                  2023 : Formation Assistante Maternelle et Premier Secours
-                </li>
-                <li>
-                  2012 – 2014 : BP Fleuriste, Chambre des métiers de l’Artisanat
-                </li>
-                <li>
-                  2010 – 2012 : CAP Fleuriste, Chambre des métiers de
+                  2010 – 2014 : CAP Fleuriste ,BP Fleuriste Chambre des métiers de
                   l’Artisanat
                 </li>
               </ul>
