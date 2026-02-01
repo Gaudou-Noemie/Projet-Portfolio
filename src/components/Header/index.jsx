@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/Logo.webp";
-import mobile from "../../assets/Logomobile.webp";
+import logo from "../../assets/logo.jpeg";
+import mobile from "../../assets/Logomobile.jpeg";
 import "./header.scss";
 
 function Header() {
