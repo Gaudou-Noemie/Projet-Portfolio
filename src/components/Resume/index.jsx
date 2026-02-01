@@ -2,7 +2,7 @@
 
 import "./resume.scss";
 import Contact from "../Contact";
-import me1 from "../../assets/me1.jpg";
+import me1 from "../../assets/me3.jpg";
 import Progress from "../Progress";
 
 function Resume() {
